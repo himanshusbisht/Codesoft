@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    border:0;
+}
+@keyframes ani {
+    0%{opacity: 0.1;margin-left:0px;}
+    10%{opacity:0.1;margin-left:10 px;}
+    20%{opacity:0.1;margin-left:20px;}
+    30%{opacity:0.1;margin-left:30px;}
+    40%{opacity:0.1;margin-left:40px;}
+    50%{opacity:0.1;margin-left:50px;}
+    60%{opacity:0.1;margin-left:60px;}
+    70%{opacity:0.1;margin-left:70px;}
+    80%{opacity:0.7;margin-left:80px;}
+    90%{opacity:0.8;margin-left:90px;}
+    100%{opacity:1;margin-left:100px;}
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url(back.avif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.sidebar li{
+       list-style: none;
+       display: inline;
+       float: right;
+       padding: 14px 16px;
+       color:white;
+}
+.intro{
+    position: relative;
+    display: flex;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    justify-content: space-around;
+}
+.describe
+{
+  color:White;
+  font-size: 50px;
+  width: 70vw;
+  text-align: left;
+  margin-left:100px;
+  animation-name: ani;
+  animation-duration: 1s;
+}
+.person{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+.services{
+    background-color:rgb(36, 36, 36);
+    text-align: center;
+    color:white;
+    height: 100vh;
+}
+.items{
+    margin-top:50px;
+}
+.class1{
+    margin-top:50px;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+}
+.img{
+    background-color: white;
+    width:200px;
+    height:auto;
+    display: flex;
+    justify-content: center;
+}
+.desc{
+    margin-left:50px;
+    margin-right:50px;
+    text-align: left;
+    padding:16px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ 
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+ 
+  .container2 {
+    text-align: center;
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+    color:white
+  }
